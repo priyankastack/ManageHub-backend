@@ -10,7 +10,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app=express();
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://manage-hub-sepia.vercel.app",
     methods:"GET,POST,UPDATE,DELETE,PATCH,HEAD",
     credentials:true
 }
