@@ -1,5 +1,5 @@
 import  Employee from '../models/model.js'
-import bcrypt from 'bcrypt' ;
+import bcrypt from 'bcryptjs' ;
 
 export const postbyemail=async(req,res)=>{
     const {username,email,password,phone}=req.body;
